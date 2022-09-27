@@ -1,7 +1,26 @@
+:root {
+    --cor-de-fundo: deeppink;
+    --fonte: Verdana, Geneva, Tahoma, sans-serif;
+    --cor-letra-body: antiquewhite;
+    --cor-letra-botao: deeppink;
+}
+
 body {
-    background-color: deeppink;
-    font-size: 48px;
-    color: antiquewhite;
+    background-color: var(--cor-de-fundo);
+    font-size: 32px;
+    color: var(--cor-letra-body);
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--fonte);
+}
+
+button {
+    padding: 6px;
+    font-size: 14px;
+    font-family: var(--fonte);
+    color: var(--cor-letra-botao)
+}
+
+#lista-conteudo {
+    font-size: 18px;
+    list-style-type: none;
 }
