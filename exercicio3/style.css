@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: darkslateblue;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.sessao-1{
+    margin: 15px; /*margem externa roxa*/
+    width: 50%;
+}
+
+.sessao-1 .linha{
+    display: flex;
+    flex-direction: row; /*linha*/
+    margin-top: 20px;
+}
+
+.sessao-1 .linha-magenta{
+    background-color: magenta;
+    width: 100%;
+    height: 10%;
+    display: flex;
+}
+
+.sessao-1-coluna-1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.sessao-1-coluna-1 .coluna-orange{
+    background-color: orange;
+    height: 68%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.sessao-1-coluna-1 .coluna-red{
+    background-color: orangered;
+    height: 15%;   
+}
+
+.sessao-1-coluna-2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sessao-1-coluna-2 .coluna-aqua{
+    background-color: aqua;
+    align-items: stretch; 
+    height: 84%;
+}
+
+
+/*sessao 2*/
+.sessao-2{
+    margin: 15px; /*margem externa roxa*/
+    width: 50%;
+}
+
+.sessao-2 .linha{
+    display: flex;
+    flex-direction: row; /*linha*/
+    height: 86%;
+}
+
+.sessao-2 .sessao-2-coluna-1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.sessao-2 .sessao-2-coluna-1 .coluna-red{
+    background-color: orangered;
+    height: 20%;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.sessao-2 .sessao-2-coluna-1 .coluna-aqua{
+    background-color: aqua;
+    height: 10%;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.sessao-2 .sessao-2-coluna-1 .coluna-orange{
+    background-color: orange;
+    height: 70%;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.sessao-2 .sessao-2-coluna-2 .coluna-aqua{
+    background-color: aqua;
+    height: 42%;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.sessao-2 .sessao-2-coluna-2 .coluna-orange{
+    background-color: orange;
+    height: 20%;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.sessao-2 .sessao-2-coluna-2 .coluna-red{
+    background-color: orangered;
+    height: 30%;
+}
+
+.sessao-2 .sessao-2-coluna-2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sessao-2 .linha-magenta{
+    background-color: magenta;
+    width: 100%;
+    height: 10%;
+    display: flex;
+}
+
+
+
+
+
