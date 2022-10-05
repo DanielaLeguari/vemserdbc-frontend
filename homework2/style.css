@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*header e nav */
+
+header {
+    background-color: rgba(255, 0, 0, 0.85);
+}
+
+nav img {
+    width: 60px;
+    /*tamanho da imagem da nav*/
+    height: 60px;
+    border-radius: 100%;
+    padding: 5px;
+    float: left;
+    margin-left: 180px;
+}
+
+.lista-nav {
+    color: #ebe6e6;
+    padding: 30px;
+
+}
+
+.lista-nav li {
+    display: inline-block;
+    /*itens da lista lado a lado*/
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.lista-nav a {
+    color: #ebe6e6;
+}
+
+/*sessão-um*/
+.sessao-um {
+    text-align: center;
+    padding: 25px;
+
+}
+
+.sessao-um img {
+    height: 80px;
+    width: 80px;
+}
+
+table {
+    margin-left: auto;
+    /*centralizando a tabela*/
+    margin-right: auto;
+}
+
+table td {
+    border: 1px solid black;
+    /*borda da imagem*/
+    border-radius: 10px;
+    padding: 20px 5px 20px 5px;
+}
+
+/*sessao-dois*/
+.sessao-dois {
+    background-color: rgb(49, 49, 49);
+    color: #ebe6e6;
+    padding: 20px;
+    text-align: justify;
+}
+
+.sessao-dois p {
+    margin: 3px 15% 10px 15%;
+
+}
+
+/*sessao-tres*/
+.sessao-tres {
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.mapa {
+    width: 350px;
+    height: 350px;
+}
+
+/*footer*/
+footer {
+    /*bottom: 0;*/
+    /* para ajustar o footer ao final da pagina*/
+    position: absolute;
+    /* para ajustar o footer ao final da pagina*/
+    width: 100%;
+    /* para ajustar o footer ao final da pagina*/
+    background-color: rgba(255, 0, 0, 0.85);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+footer a {
+    color: #ebe6e6;
+    margin: 3px 15% 10px 15%;
+}
+
+footer p {
+    color: #ebe6e6;
+    margin: 3px 15% 10px 15%;
+    font-style: italic;
+}
