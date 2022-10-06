@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: fixed;
+    display: grid;
+    grid-template-areas:
+        "nav nav nav logo"
+        "sidenav sidenav advert advert"
+        "sidenav sidenav footer footer";
+
+    /* Define o tamanho do container para full screen */
+    width: 100vw;
+    height: 100vh;
+}
+
+.item {
+    margin: 20px;
+}
+
+.logo {
+    grid-area: logo;
+    background-color: red;
+}
+
+.nav {
+    grid-area: nav;
+    background-color: blue;
+}
+
+.content {
+    grid-area: content;
+    background-color: yellow;
+}
+
+.sidenav {
+    grid-area: sidenav;
+    background-color: green;
+}
+
+.advert {
+    grid-area: advert;
+    background-color: grey;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: aqua;
+}
