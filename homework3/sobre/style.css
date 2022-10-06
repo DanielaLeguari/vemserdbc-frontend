@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:15px;
+    margin-top: 50px;
+}
+
+.imagem {
+    width:227px ;
+    height: 150px;
+    background-color:#C4C4C4 ;
+}
+
+.texto {
+    text-align: center;
+    padding: 5px;
+}

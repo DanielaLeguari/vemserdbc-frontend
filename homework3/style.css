@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*coluna 1*/
+
+.coluna-1{
+    display: flex;
+    gap: 60px;
+    width: 100%;
+    justify-content: center;
+}
+
+.coluna-1 > div{
+    margin: 15px;
+    justify-content: center;
+}
+
+.coluna-1 >div >img{
+  width: 227px;
+  height: 150px;
+  border: 1px solid black;  
+}
+.propaganda{
+    
+}
+.quadrado{
+border: 4px solid black;
+ width: 227px;
+ height: 227px;
+ 
+}
