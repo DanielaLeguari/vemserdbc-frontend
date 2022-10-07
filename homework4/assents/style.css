@@ -1,0 +1,46 @@
+:root {
+    --cor-header: #242323ff;
+    --fonte-principal: 'Inter', sans-serif;
+    --cor-fonte-header: #e8e4e4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--cor-header);
+    height: 70px;
+    width: 100%;
+}
+
+header p {
+    color: var(--cor-fonte-header);
+    font-family: var(--fonte-principal);
+    margin-left: 10px;
+}
+
+.cabecalho {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    margin-right: 10px;  
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-fonte-header);
+    font-family: var(--fonte-principal);
+}
