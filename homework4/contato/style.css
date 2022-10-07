@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: fixed;
+    display: grid;
+    height: 90%;/* duvida: como descontar o altura da navbar e margens para poder usar 100% do espaço restante?*/
+    width: 100%;
+    grid-template-areas:
+        "cor-green cor-red"
+        "cor-green cor-blue"
+    ;
+}
+.item{
+    margin:20px;
+}
+
+.cor-green {
+    grid-area: cor-green;
+    background-color: green;
+}
+
+.cor-red {
+    grid-area: cor-red;
+    background-color: red;
+}
+
+.cor-blue {
+    grid-area: cor-blue;
+    background-color: blue;
+}
+
+.imagem {
+    background-color: rgb(140, 140, 140);
+    height: 90%;
+}
+
+.texto{
+    background-color: rgb(16, 17, 18);
+    height: 10%;
+    color: aliceblue;
+}
+
+.texto p{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-family: 'Inter';
+    margin-left: 20px;
+}
