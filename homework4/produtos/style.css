@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*body {
+    width: 100vw;
+    height: 100vh;
+    
+}*/
+
+.container {
+    display: grid;
+    /*width: 95%;*/
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px 20px;
+    gap:20px;
+    grid-template-areas:
+        "figura-1 figura-1 figura-1 figura-2"
+        "figura-1 figura-1 figura-1 figura-3"
+        "figura-1 figura-1 figura-1 figura-4"
+        "figura-1 figura-1 figura-1 figura-5"
+        ;
+}
+
+.figura-1 {
+    grid-area: figura-1;
+}
+
+.figura-2 {
+    grid-area: figura-2;
+}
+
+.figura-3 {
+    grid-area: figura-3;
+}
+
+.figura-4 {
+    grid-area: figura-4;
+}
+
+
+.figura-5 {
+    grid-area: figura-5;
+}
+
+.container .imagem img{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+
+p{
+    font-family: 'Inter';
+    font-size: 18px;
+    padding: 10px;
+    ba: red;
+}
