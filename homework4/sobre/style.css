@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    margin: 0 auto;
+    margin-top: 90px;
+    height: 70%;
+    width: 80%;
+    gap: 30px;
+    grid-template-areas:
+        "video-1 video-2  video-3"
+        "video-4 video-5  video-6";
+}
+
+.video-1 {
+    grid-area: video-1;
+
+}
+
+.video-2 {
+    grid-area: video-2;
+
+}
+
+.video-3 {
+    grid-area: video-3;
+
+}
+
+.video-4 {
+    grid-area: video-4;
+
+}
+
+.video-5 {
+    grid-area: video-5;
+
+}
+
+.video-6 {
+    grid-area: video-6;
+
+}
+
+.imagem {
+    height: 90%;
+}
+
+.texto {
+    height: 10%;
+    font-family: 'Inter';
+}
+
+.texto p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* <p> ocupar 100% do espaço */
+    font-size: 18px;
+}
