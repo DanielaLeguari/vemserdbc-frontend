@@ -10,6 +10,7 @@ header {
     align-items: center;
     padding: 0 30px;
     height: 70px;
+    width: 100vw;
     font-family: inter, sans-serif;
 
 }
