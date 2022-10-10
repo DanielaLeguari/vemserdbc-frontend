@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+main {
+    background-color: rgb(240, 234, 234);
+    width: 609px;
+    height: 800px;
+    border-radius: 25px;
+
+}
+
+main img {
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'DM Sans', sans-serif;
+    
+}
+
+.dados-perfil {
+    display: flex;
+    justify-content: center;
+}
+
+.descricao {
+    text-align: center;
+}
+
+.descricao h1 {
+    padding: 5px;
+    color: rgb(38, 34, 34);
+}
+
+.descricao p {
+    color: rgb(137, 136, 136);
+    padding: 0 20px 0 20px;
+}
+
+.foto-perfil {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 100px;
+    margin-bottom: -100px;
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+    font-size: 25px;
+}
+
+.lista-links li {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 10px;
+    
+}
+
+.links {
+    border: 1px solid;
+    border-color: rgb(217, 213, 213);
+    box-shadow: 2px 2px 5px rgb(222, 216, 216);
+    background-color: rgb(242, 240, 237);
+    padding: 20px;
+    border-radius: 40px;
+    width: 70%;
+}
+
+.links a {
+    text-decoration: none;
+    color: rgb(38, 34, 34);
+    font-weight: bold;
+
+}
+
+.links:hover {
+    background-color: rgb(38, 34, 34);
+    color: white;
+
+}
+
+.links:hover a {
+    color: white;
+    font-weight: bold;
+}
+
+.facebook {
+    color: #1072ED;
+}
+
+.twitter {
+    color: #2494FB;
+}
+
+.instagram {
+    color: magenta;
+}
+
+.linkedin {
+    color: #0A66C2;
+}
+
+.youtube {
+    color: #FF2532;
+}
