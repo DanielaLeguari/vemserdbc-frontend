@@ -53,7 +53,7 @@ p {
 .secao h1 {
     color: var(--cor-titulos);
     margin: 1rem 0 1rem 0;
-    font-size:35px;
+    font-size: 35px;
 }
 
 .secao p {
@@ -86,14 +86,18 @@ p {
 }
 
 
-.elipse{
-    position: absolute;
-      
-    
+.elipse {
+   position: relative;
 }
 
-.elipse i{
+/*icone*/
+.elipse i {
+    top: 43%; /*aqui ficou uma gambiarra*/
+    left: 24%;
     position: absolute;
+    transform: translate(-100%, -100%);
+    font-size: 25px;
+    color:#242835;
 }
 
 .caixa-texto {
@@ -135,9 +139,28 @@ p {
 /*secao 6 - What makes us different*/
 .bg-branco {
     background-color: var(--fundo-branco);
-    border-radius: 0 100px 0 0;
+    border-radius: 0 140px 0 0;
     line-height: 1.5rem;
-    margin: 0;
+    padding: 1rem 1rem;
+    position: relative;
+    bottom: 0.5rem;
+    margin-bottom: -0.5rem;
+}
+
+.secao-6 h1 {
+    width: 60%;
+    line-height: 2.5rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    font-size: 36px;
+}
+
+.secao-6 h3 {
+    margin-bottom: 1rem;
+}
+
+.secao-6 p {
+    margin: 1rem 0 2rem 0;
 }
 
 
@@ -147,6 +170,9 @@ p {
 }
 
 /*secao 8 */
+.secao-8 {
+    margin-bottom: 3rem;
+}
 
 .secao-8 h1 {
     color: var(--cor-titulos);
@@ -168,27 +194,40 @@ p {
 
 /*secao-9-Presale Details */
 
-.secao-9{
+.secao-9 {
     background-image: url('./img/bg-colorido.png');
     color: var(--cor-titulos);
     text-align: center;
-    padding: 20px;
+    padding: 1rem;
+
 }
 
-.secao-9 p, h2{
+.secao-9 h1 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 36px;
+}
+
+.secao-9 p,
+h2 {
     color: #000000;
 }
 
-.caixa-phase-two{
+.caixa-phase-two {
     background-color: var(--fundo-branco);
     border-radius: 20px;
 }
-.caixa-phase-two p{
+
+.caixa-phase-two h2 {
+    padding: 2rem;
+}
+
+.caixa-phase-two p {
     padding: 1rem;
 }
 
 /*secao-10*/
-.secao-10{
+.secao-10 {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     color: var(--cor-titulos);
@@ -198,40 +237,41 @@ p {
     align-items: center;
 }
 
-.secao-10 .caixa-texto{
+.secao-10 .caixa-texto {
     margin-top: 1rem;
 }
 
-.secao-10 h1{
+.secao-10 h1 {
     padding: 2rem;
     font-size: 36px;
 }
 
-.secao-10 p{
+.secao-10 p {
     text-align: left;
 }
 
-.secao-10 h3{
+.secao-10 h3 {
     text-align: left;
 }
 
 /*footer*/
-footer{
-    color:var(--cor-titulos);
+footer {
+    color: var(--cor-titulos);
     text-align: center;
-    padding-top:1rem ;
-    padding-bottom:1rem ;
-    
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
 }
 
-footer h1{
+footer h1 {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-footer i  {
+
+footer i {
     color: #FFFFFF;
     font-size: 30px;
-    margin-right: 0.7rem;
+    margin-right: 0.8rem;
     margin-bottom: 1rem;
 }
 
