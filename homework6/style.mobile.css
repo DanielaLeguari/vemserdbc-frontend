@@ -1,5 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
+:root {
+    --cor-principal: #171B29;
+    --cor-titulos: #FFFFFF;
+    --fundo-branco: #FFFFFF;
+    --cor-paragrafos: #c1c2c6;
+}
+
+body {
+    background-color: var(--cor-principal);
+    font-family: 'Roboto', sans-serif;
+}
+
+/*header*/
+header {
+    width: 100vw;
+    height: 80px;
+    color: var(--cor-titulos);
+
+}
+
+.texto-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px;
+    align-items: center;
+}
+
+
+
+p {
+    color: var(--cor-paragrafos);
+    justify-content: left;
+
+}
+
+.secao {
+    margin: 1.5rem;
+}
+
+/*secao 1 */
+
+.texto-p {
+    color: #00B4EC;
+}
+
+.secao h1 {
+    color: var(--cor-titulos);
+    margin: 1rem 0 1rem 0;
+    font-size:35px;
+}
+
+.secao p {
+    margin: 1rem 0 1rem 0;
+    line-height: 1.5rem;
+
+}
+
+.btn-learn-more {
+    background-color: #22A75D;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+    box-shadow: 1px 1px 2px #22A75D;
+}
+
+/*secao 2*/
+.img-celular img {
+    width: 100%;
+}
+
+/*secao 4 For Holders*/
+.caixa {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.elipse{
+    position: absolute;
+      
+    
+}
+
+.elipse i{
+    position: absolute;
+}
+
+.caixa-texto {
+    width: 80%;
+    height: 80%;
+    background-color: #242835;
+    border-radius: 20px;
+    padding: 1.5rem;
+}
+
+.caixa-texto h2 {
+    color: var(--cor-titulos);
+}
+
+.caixa-texto p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+.caixa-texto a {
+    color: #00B4EC;
+}
+
+
+/*secao 5 fundo colorido*/
+.bg-colorido {
+    width: 100%;
+    height: 100%;
+    margin: 4rem 0 0 0;
+}
+
+.bg-colorido img {
+    width: 100%;
+    height: 80%;
+    border-radius: 150px 0 0 0;
+}
+
+/*secao 6 - What makes us different*/
+.bg-branco {
+    background-color: var(--fundo-branco);
+    border-radius: 0 100px 0 0;
+    line-height: 1.5rem;
+    margin: 0;
+}
+
+
+/*secao 7*/
+.secao-7 img {
+    margin: 1rem;
+}
+
+/*secao 8 */
+
+.secao-8 h1 {
+    color: var(--cor-titulos);
+    text-align: center;
+    line-height: 1rem;
+}
+
+.secao-8 p {
+    padding-top: 1rem;
+    line-height: 1.5rem;
+    margin: 20px 20px;
+}
+
+.secao-8 a {
+    color: #22A75D;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+/*secao-9-Presale Details */
+
+.secao-9{
+    background-image: url('./img/bg-colorido.png');
+    color: var(--cor-titulos);
+    text-align: center;
+    padding: 20px;
+}
+
+.secao-9 p, h2{
+    color: #000000;
+}
+
+.caixa-phase-two{
+    background-color: var(--fundo-branco);
+    border-radius: 20px;
+}
+.caixa-phase-two p{
+    padding: 1rem;
+}
+
+/*secao-10*/
+.secao-10{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--cor-titulos);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secao-10 .caixa-texto{
+    margin-top: 1rem;
+}
+
+.secao-10 h1{
+    padding: 2rem;
+    font-size: 36px;
+}
+
+.secao-10 p{
+    text-align: left;
+}
+
+.secao-10 h3{
+    text-align: left;
+}
+
+/*footer*/
+footer{
+    color:var(--cor-titulos);
+    text-align: center;
+    padding-top:1rem ;
+    padding-bottom:1rem ;
+    
+}
+
+footer h1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+footer i  {
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-right: 0.7rem;
+    margin-bottom: 1rem;
+}
+
+
+footer small {
+    color: #FFFFFF;
+}
