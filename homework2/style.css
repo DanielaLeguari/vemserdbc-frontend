@@ -94,6 +94,7 @@ table td {
 footer {
     /*bottom: 0;*/
     /* para ajustar o footer ao final da pagina*/
+   
     position: absolute;
     /* para ajustar o footer ao final da pagina*/
     width: 100%;
