@@ -1,6 +1,7 @@
 @import url('./constants.css');
 @import url('./header/header.css');
 @import url('./botao-azul/botao.css');
+@import url('./secao-um/secao-um.css');
 /*se eu importar tudo aqui faciliata depois*/
 
 *{
@@ -8,3 +9,7 @@ margin: 0;
 padding: 0;
 }
 
+
+body{
+    font-family: var(--font-family);
+}

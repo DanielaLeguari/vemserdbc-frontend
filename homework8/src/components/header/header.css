@@ -1,20 +1,23 @@
 @import url('../style.css');
 .home-header{
     font-family: var(--font-family);
-    /* background-color: var(--cor-background-principal); */
-    background-color: red;
+    background-color: var(--cor-background-principal); 
     width: 100vw;
     height: 60px;
     color: var(--cor-fonte-trello);
     display: flex;
-    padding: 0 10px;
+    padding-left:10px;
     align-items: center;
-    box-sizing: border-box; /*corrigiu  tamanho da header*/
-    
+    box-sizing: border-box; 
+    position: fixed;/* fixar o header*/
+    top:0; /* fixar o header*/
+    left: 0;
+    box-shadow: rgba(9, 30, 66, 0.15) 0px 0.5rem 1rem 0px;
 }
 
 .menu-header{
     display: flex;
+    align-items: center;
 }
 
 .lista-menu-header{
@@ -72,9 +75,10 @@
     height: 100%;
 }
 
-.botao-azul{
+.botao-azul-header{
  padding:1rem 1.3rem 1rem 1.3rem;
  font-size: 1.2rem;
+
 }
 
 .botao-entrar{

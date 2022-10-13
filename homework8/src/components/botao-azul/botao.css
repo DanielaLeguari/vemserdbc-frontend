@@ -9,6 +9,5 @@
 }
 
 .botao-azul:hover{
-    background-color:var(--cor-hover-botao) ;
-   
+    background-color:var(--cor-hover-botao) ; 
 }

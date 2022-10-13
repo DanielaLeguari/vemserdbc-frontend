@@ -6,10 +6,10 @@
     --cor-fonte-botao: #FFFFFF;
     --cor-footer: #091E42;
     --cor-hover-botao: #0747A6;
-    --gradiente-inscricao: linear-gradient(#403294), (#4C9AFF) no-repeat;
+    --gradiente-inscricao: linear-gradient(#403294, #4C9AFF) no-repeat;
     --cor-background-citacao: #E6FCFF;
     --cor-background-principal:#FFFFFF;
-    --gradiente-secao-criar-conta: linear-gradient(#EAE6FF),(#FFFFFF) no-repeat;
+    --gradiente-secao-criar-conta: linear-gradient(#EAE6FF, #FFFFFF) no-repeat;
     --cor-fonte-trello: #091E42;
     --font-family:'Nunito Sans', sans-serif;
     --cor-fonte-texto: #000000;
