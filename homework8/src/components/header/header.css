@@ -1,0 +1,86 @@
+@import url('../style.css');
+.home-header{
+    font-family: var(--font-family);
+    /* background-color: var(--cor-background-principal); */
+    background-color: red;
+    width: 100vw;
+    height: 60px;
+    color: var(--cor-fonte-trello);
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    box-sizing: border-box; /*corrigiu  tamanho da header*/
+    
+}
+
+.menu-header{
+    display: flex;
+}
+
+.lista-menu-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.home-header .lista-menu-header{
+    display: flex;
+    list-style-type: none;
+    cursor: pointer;  
+}
+
+.lista-menu-header li{
+    padding: 1rem;
+}
+
+.lista-menu-header:hover{
+    color:var(--cor-background-botao);
+}
+
+.menu {
+    display: flex;
+    text-decoration: none;
+    color: var(--cor-fonte-trello);
+}
+
+.menu:hover{
+    color:var(--cor-background-botao)
+}
+
+.menu-header p{
+    display: flex;
+    align-items: center;
+}
+
+.logo-trello{
+    color:var(--cor-fonte-trello);
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1.7rem;
+    font-weight: bold;
+   
+}
+
+.botoes{
+    display: flex;
+    height: 100%;
+}
+
+.botao-azul{
+ padding:1rem 1.3rem 1rem 1.3rem;
+ font-size: 1.2rem;
+}
+
+.botao-entrar{
+    background-color: var(--cor-background-principal);
+    border: var(--cor-background-principal);
+    font-size:1.2rem;
+    padding:1rem 1.3rem 1rem 1.3rem;
+}
+

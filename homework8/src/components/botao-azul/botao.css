@@ -1,0 +1,14 @@
+@import url('../style.css');
+
+.botao-azul{
+    background-color:var(--cor-background-botao);
+    color: var(--cor-fonte-botao);
+    border: var(--cor-background-botao);
+    align-items: center;
+    font-family: var(--font-family);
+}
+
+.botao-azul:hover{
+    background-color:var(--cor-hover-botao) ;
+   
+}

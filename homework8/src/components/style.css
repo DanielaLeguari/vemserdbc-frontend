@@ -1,0 +1,10 @@
+@import url('./constants.css');
+@import url('./header/header.css');
+@import url('./botao-azul/botao.css');
+/*se eu importar tudo aqui faciliata depois*/
+
+*{
+margin: 0;
+padding: 0;
+}
+
