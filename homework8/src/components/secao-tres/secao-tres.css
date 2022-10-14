@@ -1,10 +1,9 @@
 @import url('../style.css');
 
-
-
 .secao-tres {
     max-width: 80%;
     text-align: center;
+    margin-top: 4rem;
 }
 
 .secao-tres h1 {
@@ -36,4 +35,16 @@
 
 .secao-tres-clientes img{
     max-width: 150px;
+}
+.secao-tres-recursos{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    text-align: left;
+}
+
+.secao-tres .botao-azul {
+    margin-top: 1.4rem;
+    margin-bottom: 2rem;
 }

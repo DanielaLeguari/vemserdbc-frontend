@@ -1,0 +1,40 @@
+@import url('../style.css');
+
+.secao-dois{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+.secao-dois button {
+    padding: 0.7rem 1rem 0.8rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    max-height: 2.8rem;
+}
+
+.secao-dois-coluna {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.secao-dois-coluna .secao-dois-imagem {
+    width: 29%;
+    margin-right: 1rem;
+}
+
+.secao-dois-imagem img {
+    max-width: 100px;
+    max-height: 90px;
+}
+
+.secao-dois-detalhe {
+    width: 70%;
+}
+
+.secao-dois-detalhe p {
+    margin-top: 1rem;
+    margin-bottom: 1.4rem;
+    line-height: 1.55rem;
+}
