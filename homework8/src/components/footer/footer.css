@@ -4,8 +4,39 @@
 .secao-footer {
     width: 100%;
     background-color: var(--cor-footer);
+    color: var(--cor-fonte-botao);
 }
-.secao-footer-container{
+
+.secao-footer-container {
     max-width: 80%;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.secao-footer-logo {
+    padding: 2rem 4rem 2rem 0;
+}
+
+.secao-footer-logo svg{
+    max-width: 7rem;
+}
+
+.secao-footer-col-1,
+.secao-footer-col-2,
+.secao-footer-col-3,
+.secao-footer-col-4 {
+    padding: 2rem 2rem 2rem 0;
+}
+
+.secao-footer-container h3 {
+    font-size: 1rem;
+    cursor: pointer;
+    padding-bottom: 0.8rem;
+}
+
+.secao-footer-container p {
+    font-size: 0.8rem;
+    cursor: pointer;
 }
