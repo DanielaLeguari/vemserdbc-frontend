@@ -4,6 +4,12 @@
 @import url('./secao-um/secao-um.css');
 @import url('./secao-dois/secao-dois.css');
 @import url('./secao-tres/secao-tres.css');
+@import url('./secao-quatro/secao-quatro.css');
+@import url('./secao-cinco/secao-cinco.css');
+@import url('./secao-seis/secao-seis.css');
+@import url('./secao-sete/secao-sete.css');
+@import url('./secao-oito/secao-oito.css');
+@import url('./footer/footer.css');
 /*se eu importar tudo aqui faciliata depois*/
   
 *{
@@ -14,6 +20,7 @@ padding: 0;
 
 body{
     font-family: var(--font-family);
+    color: var(--cor-fonte-trello);
 }
 
 .container {

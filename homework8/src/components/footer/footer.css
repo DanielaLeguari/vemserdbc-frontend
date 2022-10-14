@@ -1,0 +1,11 @@
+@import url('../style.css');
+
+
+.secao-footer {
+    width: 100%;
+    background-color: var(--cor-footer);
+}
+.secao-footer-container{
+    max-width: 80%;
+    margin: 0 auto;
+}

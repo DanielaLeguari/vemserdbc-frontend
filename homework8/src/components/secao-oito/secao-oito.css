@@ -1,0 +1,18 @@
+@import url('../style.css');
+
+
+.secao-oito {
+    width: 100%;
+    background-color: var(--cor-background-citacao);
+}
+.secao-oito-container{
+    max-width: 80%;
+    margin: 0 auto;
+
+}
+
+.secao-oito-container h1{
+    font-size: 2.25rem;
+    line-height: 1.34;
+    font-weight: 400;
+}
