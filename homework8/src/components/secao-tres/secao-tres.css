@@ -1,0 +1,39 @@
+@import url('../style.css');
+
+
+
+.secao-tres {
+    max-width: 80%;
+    text-align: center;
+}
+
+.secao-tres h1 {
+    font-size: 2.25rem;
+}
+
+.secao-tres p {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.secao-tres button {
+    padding: 0.7rem 1rem 0.8rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    max-height: 2.8rem;
+}
+
+.secao-tres .img-trello img {
+    width: 80%;
+    height: 80%;
+}
+
+.secao-tres-clientes {
+    display: flex;
+    justify-content: center;
+}
+
+.secao-tres-clientes img{
+    max-width: 150px;
+}
