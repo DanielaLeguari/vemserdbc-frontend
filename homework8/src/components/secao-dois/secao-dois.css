@@ -1,0 +1,30 @@
+@import url('../style.css');
+
+
+
+.secao-dois {
+    max-width: 80%;
+text-align: center;
+}
+
+.secao-dois h1{
+    font-size: 2.25rem;
+}
+
+.secao-dois p{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.secao-dois button{
+    padding: 0.7rem 1rem 0.8rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    max-height: 2.8rem;
+}
+
+.secao-dois img{
+width: 80%;
+height: 80%;
+}
