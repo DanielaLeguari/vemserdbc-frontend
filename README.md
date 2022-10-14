@@ -109,9 +109,16 @@ Neste repositorio estao as atividades e homeworks desenvolvidos no modulo de HTM
 #exercicio6
 - Responsividade.
 
+
 ![](imagens/exercicio6.png)
 
 #homework6
 - Mobile first.
 
+
 ![](imagens/homework6-mobile.png)
+
+
+#homework8
+-Design System, reproducao do site do Trello
+![](imagens/homework-8.png)
