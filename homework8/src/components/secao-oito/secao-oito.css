@@ -3,7 +3,7 @@
 
 .secao-oito {
     width: 100%;
-   
+
 }
 
 .secao-oito-container {
@@ -12,10 +12,11 @@
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
-.secao-oito-conteudo{
+
+.secao-oito-conteudo {
     max-width: 80%;
     margin: 0 auto;
-   
+
 }
 
 .secao-oito-container h1 {
@@ -24,15 +25,15 @@
     font-weight: 400;
 }
 
-.secao-oito-detalhes{
-   display: flex;
-   justify-content: space-around;
+.secao-oito-detalhes {
+    display: flex;
+    justify-content: space-around;
 }
 
 .secao-oito-inscreva-se {
     max-width: 80%;
     margin: 0 auto;
-    border-radius: 10px; 
+    border-radius: 10px;
     background: var(--gradiente-inscricao);
 
 }
@@ -50,21 +51,23 @@
 .secao-oito-inscreva-se button {
     border: none;
 }
-.secao-oito-inscreva-se .secao-um-conta{
+
+.secao-oito-inscreva-se .secao-um-conta {
     display: flex;
     justify-content: center;
     padding-bottom: 2rem;
-   
+
 }
 
-.secao-oito-botoes-telas{
-   display: flex;
-   justify-content:center;
-   align-items: center;
-    background:rgb(250, 251, 252) ;
+.secao-oito-botoes-telas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    background: rgb(250, 251, 252);
 }
 
-.secao-oito-botoes-telas img{
+.secao-oito-botoes-telas img {
     max-width: 180px;
     padding: 1rem;
 }

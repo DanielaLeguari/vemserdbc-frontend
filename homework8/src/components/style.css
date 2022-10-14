@@ -11,14 +11,14 @@
 @import url('./secao-oito/secao-oito.css');
 @import url('./footer/footer.css');
 /*se eu importar tudo aqui faciliata depois*/
-  
-*{
-margin: 0;
-padding: 0;
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 
-body{
+body {
     font-family: var(--font-family);
     color: var(--cor-fonte-trello);
 }

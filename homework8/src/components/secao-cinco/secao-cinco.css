@@ -1,15 +1,15 @@
 @import url('../style.css');
 
-.secao-cinco { 
-    width:100%; 
+.secao-cinco {
+    width: 100%;
 }
 
-.secao-cinco-container{
+.secao-cinco-container {
     display: grid;
     grid-template-columns: 55% 45%;
     max-width: 80%;
     margin: 0 auto;
-    padding: 6rem;
+    padding: 3rem;
 }
 
 
@@ -31,12 +31,12 @@
 }
 
 .secao-cinco-saiba-mais {
-   padding-top: 2rem;
+    padding-top: 2rem;
     text-decoration: none;
     display: flex;
     align-items: center;
     cursor: pointer;
-    font-size: 25px ;
-    color:var(--cor-fonte-trello);
+    font-size: 25px;
+    color: var(--cor-fonte-trello);
     font-weight: bold;
 }

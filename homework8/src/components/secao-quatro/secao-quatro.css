@@ -1,16 +1,16 @@
 @import url('../style.css');
 
 
-.secao-quatro { 
-    width:100%; 
+.secao-quatro {
+    width: 100%;
 }
 
-.secao-quatro-container{
+.secao-quatro-container {
     display: grid;
     grid-template-columns: 55% 45%;
     max-width: 80%;
     margin: 0 auto;
-    padding: 6rem;
+    padding: 3rem;
 }
 
 
@@ -32,13 +32,12 @@
 }
 
 .secao-quatro-saiba-mais {
-   padding-top: 2rem;
+    padding-top: 2rem;
     text-decoration: none;
     display: flex;
     align-items: center;
     cursor: pointer;
-    font-size: 25px ;
-    color:var(--cor-fonte-trello);
+    font-size: 25px;
+    color: var(--cor-fonte-trello);
     font-weight: bold;
 }
-

@@ -40,3 +40,14 @@
     font-size: 0.8rem;
     cursor: pointer;
 }
+
+.secao-footer-container a{
+    cursor: pointer;
+    text-decoration: none;
+    color:#ffffff;
+}
+.secao-footer-idioma{
+    display: flex;
+    align-items: center;
+    padding: 2rem 1rem 2rem 1rem;
+}
