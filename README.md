@@ -4,16 +4,7 @@
 
 ### Acompanhe minha evolução!!! 😊😊😊
 
-#exercicio1
-1. Criacao de uma pasta;
-2. Criar um arquivo index.html e galeria.html nesta pasta;
-3. Declarar o codigo fonte base do HTML e:
-- Inserir um Titulo na Guia do Navegador com nome de Exercicio 1
-- Inserir um titulo no documento --> Web Site
-- Inserir uma linha horizontal
-- Inserir tres links (um para um site, outro para uma imagem e outro para o arquivo galeria.html);
-- Inserir 4 imagens pequenas no arquivo galeria.html dentro de uma tabela ---> e nao esquecer de configurar o Titulo do navegador para Galeria;
-- Inseri um link para voltar para a o index no arquivo galeria.html
+📌 #exercicio1
 
 
 ![](imagens/exercicio1.png)
